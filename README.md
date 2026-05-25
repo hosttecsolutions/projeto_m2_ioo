@@ -3,7 +3,9 @@
 Este projeto foi desenvolvido como atividade de estudo do 3º semestre do curso de Engenharia de Software da UMC, na disciplina de Implementação Orientada a Objetos.
 
 Professor: Pedro de Toledo
+
 Aluno: Luiz Nicolau
+
 Ano: 2026
 
 ## Sobre o projeto
@@ -131,12 +133,12 @@ O controller recebe o valor do botão clicado através do parâmetro `op`.
 Exemplo:
 
 ```text
-CADASTRAR
-DELETAR
-ATUALIZAR
-CONSULTAR PELO ID
-CONSULTAR TODOS
-EFETIVAR ATUALIZAÇÃO
+Cadastrar
+Deletar
+Atualizar
+Consultar pelo ID
+Consultar todos
+Efetivar atualização
 ```
 
 ## Padrão DAO
