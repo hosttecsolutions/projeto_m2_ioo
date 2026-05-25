@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sistema de Cadastro de Clientes - Projeto M2 IOO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <script type="text/javascript" src="js/validacao.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <form name="f1" action="controle_cliente" method="GET">
+                <div>
+                    <h1>Sistema de Cadastro de Clientes</h1>
+                </div>
+
+                <label>ID:</label>
+                <input type="text" name="txtid"><br>
+
+                <label>Nome:</label>
+                <input type="text" name="txtnome"><br>
+
+                <label>CPF:</label>
+                <input type="text" name="txtcpf"><br>
+
+                <label>Email:</label>
+                <input type="email" name="txtemail"><br>
+
+                <label>Telefone:</label>
+                <input type="text" name="txttelefone"><br>
+
+                <label>Endereço:</label>
+                <input type="text" name="txtendereco"><br>
+
+                <label>Cidade:</label>
+                <input type="text" name="txtcidade"><br>
+
+                <label>Estado:</label>
+                <input type="text" name="txtestado" maxlength="2"><br>
+
+                <label>Data de Nascimento:</label>
+                <input type="date" name="txtdataNascimento"><br>
+
+                <label>Status:</label>
+                <select name="txtstatus">
+                    <option value="Ativado">Ativado</option>
+                    <option value="Desativado">Desativado</option>
+                </select><br>
+
+                <label>CEP:</label>
+                <input type="text" name="txtcep"><br>
+
+                <div class="botoes">
+                    <input type="submit" name="op" value="CADASTRAR" onclick="return validarFormulario()">
+                    <input type="submit" name="op" value="DELETAR">
+                    <input type="submit" name="op" value="ATUALIZAR">
+                    <input type="submit" name="op" value="CONSULTAR PELO ID">
+                    <input type="submit" name="op" value="CONSULTAR TODOS">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
